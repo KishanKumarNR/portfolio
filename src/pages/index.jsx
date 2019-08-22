@@ -68,11 +68,11 @@ const Index = () => (
         <Subtitle></Subtitle>
       </Hero>
       <Projects offset={1}>
-        <Title>Blogs</Title>
+        <Title> ☆ Blogs ☆ </Title>
         <ProjectsWrapper>
           <ProjectCard
             title="JavaScript"
-            link="https://www.linkedin.com/in/kishannr/"
+            link="https://javascript.info/"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
             Learn some JavaScript 
@@ -82,7 +82,6 @@ const Index = () => (
               link="https://linktr.ee/kishankumar"
               bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            Learn some JavaScript
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
