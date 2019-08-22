@@ -7,7 +7,7 @@
   Referrer-Policy: same-origin
 /component---node-modules-gatsby-plugin-offline-app-shell-js-52a629737c93a13605f5.js
   Cache-Control: public, max-age=31536000, immutable
-/styles.18be1ebaf4d70b505523.css
+/styles.9a750726485606787091.css
   Cache-Control: public, max-age=31536000, immutable
 /styles-c652c7ea2be8a685018b.js
   Cache-Control: public, max-age=31536000, immutable
@@ -17,21 +17,21 @@
   Cache-Control: public, max-age=31536000, immutable
 /undefined
   Cache-Control: public, max-age=31536000, immutable
-/webpack-runtime-02b1d79e9b970b5423f3.js
+/webpack-runtime-c7f2cc46ead68d9cfb72.js
   Cache-Control: public, max-age=31536000, immutable
-/app-4ba8a14466c02a5265f9.js
+/app-c975cddc7428ec478de3.js
   Cache-Control: public, max-age=31536000, immutable
 /static/*
   Cache-Control: public, max-age=31536000, immutable
 /sw.js
   Cache-Control: no-cache
-/offline-plugin-app-shell-fallback/
-  Link: </webpack-runtime-02b1d79e9b970b5423f3.js>; rel=preload; as=script
-  Link: </app-4ba8a14466c02a5265f9.js>; rel=preload; as=script
-  Link: </component---node-modules-gatsby-plugin-offline-app-shell-js-52a629737c93a13605f5.js>; rel=preload; as=script
-/
-  Link: </webpack-runtime-02b1d79e9b970b5423f3.js>; rel=preload; as=script
-  Link: </app-4ba8a14466c02a5265f9.js>; rel=preload; as=script
-  Link: </styles-c652c7ea2be8a685018b.js>; rel=preload; as=script
-  Link: </5-674a11a810db91b7117c.js>; rel=preload; as=script
-  Link: </component---src-pages-index-jsx-c0ebd4ebda1b66fdc944.js>; rel=preload; as=script
+/portfolio/offline-plugin-app-shell-fallback/
+  Link: </portfolio/webpack-runtime-c7f2cc46ead68d9cfb72.js>; rel=preload; as=script
+  Link: </portfolio/app-c975cddc7428ec478de3.js>; rel=preload; as=script
+  Link: </portfolio/component---node-modules-gatsby-plugin-offline-app-shell-js-52a629737c93a13605f5.js>; rel=preload; as=script
+/portfolio/
+  Link: </portfolio/webpack-runtime-c7f2cc46ead68d9cfb72.js>; rel=preload; as=script
+  Link: </portfolio/app-c975cddc7428ec478de3.js>; rel=preload; as=script
+  Link: </portfolio/styles-c652c7ea2be8a685018b.js>; rel=preload; as=script
+  Link: </portfolio/5-674a11a810db91b7117c.js>; rel=preload; as=script
+  Link: </portfolio/component---src-pages-index-jsx-c0ebd4ebda1b66fdc944.js>; rel=preload; as=script
