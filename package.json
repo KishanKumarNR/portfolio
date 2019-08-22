@@ -2,7 +2,7 @@
   "name": "portfolio",
   "description": "One page portfolio",
   "version": "3.0.0",
-  "author": "Mustafa",
+  "author": "Kishan",
   "license": "MIT",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
@@ -55,11 +55,11 @@
     "prettier": "^1.16.4"
   },
   "repository": {
-    "url": "https://github.com/mustafamasvi/portfolio",
+    "url": "https://github.com/KishanKumarNR/portfolio",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/mustafamasvi/portfolio/issues"
+    "url": "https://github.com/KishanKumarNR/portfolio/issues"
   },
-  "homepage": "http://mustafamasvi.com"
+  "homepage": "https://linktr.ee/kumar"
 }

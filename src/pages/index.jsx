@@ -63,7 +63,7 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-          Hello, <br /> I'm Mustafa Masvi.
+          Hello, <br /> I'm Kishan Kumar.
         </BigTitle>
         <Subtitle></Subtitle>
       </Hero>
@@ -71,49 +71,27 @@ const Index = () => (
         <Title>Blogs</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Advice From A 25 Year Old Boy & Software Developer"
-            link="https://blog.usejournal.com/advice-from-a-25-year-old-boy-software-developer-537ac3c6ccf1"
-            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
-          >
-            This blog is my entry to Medium.
-          </ProjectCard>
-          <ProjectCard
-            title="Teach Yourself How To Code"
-            link="https://medium.com/@mustafamasvi/teach-yourself-how-to-code-b5ca841b26c9"
-            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
-          >
-            Techniques, tips and How I learn. 
-          </ProjectCard>
-          <ProjectCard
-            title="What New Developers Should Really Focus On"
-            link="https://medium.com/@mustafamasvi/what-new-developers-should-really-focus-on-e48b26fced10"
-            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
-          >
-            Advice for new programmers and developers.
-          </ProjectCard>
-          <ProjectCard
-            title="11 Habits of Highly Effective Developers Part 1"
-            link="https://medium.com/@mustafamasvi/11-habits-of-highly-effective-developers-habits-1-6-dd55d004b757"
-            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
-          >
-            6 habits of 11 habits what a developer should have to be effective developers.
-          </ProjectCard>
-          <ProjectCard
             title="JavaScript"
-            link="http://dev.mustafamasvi.com/"
+            link="https://www.linkedin.com/in/kishannr/"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
             Learn some JavaScript 
           </ProjectCard>
-          
+          <ProjectCard
+              title="Check out more @"
+              link="https://linktr.ee/kishankumar"
+              bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+          >
+            Learn some JavaScript
+          </ProjectCard>
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
         <Title>About</Title>
         <AboutHero>
-          <Avatar src={avatar} alt="Mustafa Masvi" />
+          <Avatar src={avatar} alt="Kishan Kumar" />
           <AboutSub>
-          I'm a 26-year-old software developer with a great passion for coding. I code and study computer science intensively, mentor new developers, write technical content, and share my passion for programming to over 1k people on social media, in order to show how amazing coding can be!
+           Know more about me, below !
           </AboutSub>
         </AboutHero>
         <AboutDesc>
@@ -121,25 +99,24 @@ const Index = () => (
           <ul>
             <li>JavaScript</li>
             <li>Frameworks: Angular, React, Express(Node)</li>
-            <li>.Net &amp; .Net Core</li>
+            <li>Java &amp; </li>
             <li>Docker</li>
           </ul>
 
-          Want to hire me? Find my <a href="https://resume.creddle.io/resume/706idqyuigx" target="_blank">Resume</a>
+          Want to hire me? Find my <a href="https://resume.creddle.io/resume/872ylplc40w" target="_blank">Resume</a>
         </AboutDesc>
       </About>
       <Contact offset={4}>
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:mustafamasvi@yahoo.com">Hi</a> or find me on other platforms:{' '}
-            <a href="https://www.linkedin.com/in/mustafamasvi/">LinkedIn</a>,{' '}
-            <a href="https://medium.com/@mustafamasvi">Medium</a> &{' '}
-            <a href="https://www.instagram.com/mustafamasvi/">Instagram</a>
+            Say <a href="mailto:kishan.93k@gmail.com">Hi</a> or find me on other platforms:{' '}
+            <a href="https://www.linkedin.com/in/kishannr/">LinkedIn</a>,{' '}
+            <a href="https://twitter.com/kishan_nr">Twitter</a>
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2019 Mustafa Masvi.{' '}
+          &copy; 2019.{' '}
         </Footer>
       </Contact>
     </Parallax>
