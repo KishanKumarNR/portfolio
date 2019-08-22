@@ -26,21 +26,17 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-a58d5a61eb8229b14402.js"
+    "url": "webpack-runtime-445e59fef5116c36f8cd.js"
   },
   {
-    "url": "app-c975cddc7428ec478de3.js"
+    "url": "app-4ba8a14466c02a5265f9.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-52a629737c93a13605f5.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "a6290ab8f4eea0fc4c56d7326d5ee288"
-  },
-  {
-    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
-    "revision": "2cde584ff68120cec110140f04a80f34"
+    "revision": "da8f04739ec6d187edf069bf4d2128fb"
   },
   {
     "url": "manifest.json",
@@ -48,7 +44,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "ed2dd8736e2c4c171a8d11a4f4cac553"
+    "revision": "60c60d846755cebf880220bd0759859d"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
@@ -67,12 +63,12 @@ const { NavigationRoute } = workbox.routing
 
 const navigationRoute = new NavigationRoute(async ({ event }) => {
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/portfolio`), ``)
+  pathname = pathname.replace(new RegExp(`^`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/portfolio/app-c975cddc7428ec478de3.js`))) {
+  if (!resources || !(await caches.match(`/app-4ba8a14466c02a5265f9.js`))) {
     return await fetch(event.request)
   }
 
@@ -85,7 +81,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/portfolio/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
   return await caches.match(offlineShell)
 })
 

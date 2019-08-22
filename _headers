@@ -7,31 +7,31 @@
   Referrer-Policy: same-origin
 /component---node-modules-gatsby-plugin-offline-app-shell-js-52a629737c93a13605f5.js
   Cache-Control: public, max-age=31536000, immutable
-/styles.9a750726485606787091.css
+/styles.18be1ebaf4d70b505523.css
   Cache-Control: public, max-age=31536000, immutable
 /styles-c652c7ea2be8a685018b.js
   Cache-Control: public, max-age=31536000, immutable
 /5-674a11a810db91b7117c.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-pages-index-jsx-fb88c23f7bc6bfef5ded.js
+/component---src-pages-index-jsx-fee8fd512c6b72750eff.js
   Cache-Control: public, max-age=31536000, immutable
 /undefined
   Cache-Control: public, max-age=31536000, immutable
-/webpack-runtime-a58d5a61eb8229b14402.js
+/webpack-runtime-445e59fef5116c36f8cd.js
   Cache-Control: public, max-age=31536000, immutable
-/app-c975cddc7428ec478de3.js
+/app-4ba8a14466c02a5265f9.js
   Cache-Control: public, max-age=31536000, immutable
 /static/*
   Cache-Control: public, max-age=31536000, immutable
 /sw.js
   Cache-Control: no-cache
-/portfolio/offline-plugin-app-shell-fallback/
-  Link: </portfolio/webpack-runtime-a58d5a61eb8229b14402.js>; rel=preload; as=script
-  Link: </portfolio/app-c975cddc7428ec478de3.js>; rel=preload; as=script
-  Link: </portfolio/component---node-modules-gatsby-plugin-offline-app-shell-js-52a629737c93a13605f5.js>; rel=preload; as=script
-/portfolio/
-  Link: </portfolio/webpack-runtime-a58d5a61eb8229b14402.js>; rel=preload; as=script
-  Link: </portfolio/app-c975cddc7428ec478de3.js>; rel=preload; as=script
-  Link: </portfolio/styles-c652c7ea2be8a685018b.js>; rel=preload; as=script
-  Link: </portfolio/5-674a11a810db91b7117c.js>; rel=preload; as=script
-  Link: </portfolio/component---src-pages-index-jsx-fb88c23f7bc6bfef5ded.js>; rel=preload; as=script
+/offline-plugin-app-shell-fallback/
+  Link: </webpack-runtime-445e59fef5116c36f8cd.js>; rel=preload; as=script
+  Link: </app-4ba8a14466c02a5265f9.js>; rel=preload; as=script
+  Link: </component---node-modules-gatsby-plugin-offline-app-shell-js-52a629737c93a13605f5.js>; rel=preload; as=script
+/
+  Link: </webpack-runtime-445e59fef5116c36f8cd.js>; rel=preload; as=script
+  Link: </app-4ba8a14466c02a5265f9.js>; rel=preload; as=script
+  Link: </styles-c652c7ea2be8a685018b.js>; rel=preload; as=script
+  Link: </5-674a11a810db91b7117c.js>; rel=preload; as=script
+  Link: </component---src-pages-index-jsx-fee8fd512c6b72750eff.js>; rel=preload; as=script
